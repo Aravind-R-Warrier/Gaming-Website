@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+color: white;
+}
+
+
+body{
+    font-family:  "Cinzel", serif;
+    background-color:black;
+    overflow-x: hidden;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.introtag{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transition: 0.6s;
+}
+span{
+    position: absolute;
+    left: 30%;
+    color: darkgrey;
+}
+.introtag:hover{
+    transform: scale(1.2);
+    color: whitesmoke;
+    color: darkgrey;
+}
+
+/* image anime */
+.container img{
+transition: 0.5s;
+}
+.container img:hover{
+    transform:scale(0.9) ;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style:preserve-3d;
+    transform: perspective(1000px);
+}
+.list .items{
+    transition: .5s;
+    filter: brightness(0.9);
+}
+.list .items:hover{
+    filter: brightness(1);
+    transform: translatez(80px);
+    
+}
